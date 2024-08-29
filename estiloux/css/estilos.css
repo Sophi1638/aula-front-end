@@ -19,7 +19,6 @@ header {
 nav {
     width: 400px;
     height: 100%;
-    border: 3px solid black;
 }
 
 
@@ -28,7 +27,6 @@ nav {
     height: 100%;
     max-width: 992px;
     margin: 0 auto;
-    border: 3px solid crimson;
 }
 
 .header-flex {

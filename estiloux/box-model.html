@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        article{
+            width: 150px;
+            height: 150px;
+            margin-top: 15px;
+            margin-left: 10px;
+            padding: 15px;
+            border: 1px dashed #009AFA;
+            border-radius: 10px;
+            background-color: #dee1e8;
+            text-align: center;
+            box-shadow: 2px 2px 5px black;
+        }
+        body{
+            background-color: rgb(0, 191, 255);
+            display: flex;
+            justify-content: center ;
+        }
+        article img{
+            width: 40px;
+        }
+
+        article h1{
+            text-align: center;
+            font-size: 18px;
+            font-family: 'Courier New', Courier, monospace;
+            text-transform: uppercase;
+        }
+
+        article p{
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 12px;
+        }
+       .caixa-azul{
+        background-color: #009AFA;
+       } 
+
+
+
+
+    </style>
+</head>
+<body>
+    <article>
+        <img src="./imagens/raio.svg" alt="imagem de um raio">
+        <h1>Web disign</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    </article>
+
+    <article class="caixa-azul">
+        <img src="./imagens/enviar arquivo.svg" alt="imagem de um raio">
+        <h1>Web disign</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    </article>
+
+    <article>
+        <img src="./imagens/pasta.svg" alt="imagem de um raio">
+        <h1>Web disign</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    </article>
+</body>
+</html>
+
