@@ -10,15 +10,19 @@ body {
 }
 
 
-header {
+header ,footer {
     width: 100%;
     height: 80px;
     background-color: #727272;
 }
 
 nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 400px;
     height: 100%;
+    /* border: 3px solid black; */
 }
 
 
@@ -27,6 +31,7 @@ nav {
     height: 100%;
     max-width: 992px;
     margin: 0 auto;
+    /* border: 3px solid crimson; */
 }
 
 .header-flex {
@@ -40,4 +45,78 @@ h1 {
     font-size: 30px;
     font-weight: 300;
     color: white;
+}
+
+
+.ux{
+    font-size: 30px;
+    margin-left: 3px;
+    font-style: italic;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+     height: 80px;
+    color: e8e8e8;
+    text-decoration: none;
+    font-family: verdana,sans-serif;
+    transition:background-color 0.4s,;
+}
+nav a:hover {
+    /* color: whitesmoke; */
+    /* text-decoration: underline; */
+    /* font-style: italic; */
+    border-radius: 12px;
+    background-color: rgba(232, 232, 232, 0.297);
+
+}
+
+main{
+    width: 100%;
+    height: 80%;
+    border: 3px solid red;
+}
+
+.main-flex{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 2px solid green;
+    background-color: pink;
+    
+}
+
+.harmonia{
+    margin: 10px;
+    width: 615px;
+    height: 463px;
+    border: 2px solid blue;
+    background-color: green;
+}
+aside{
+    margin: 10px;
+    width: 216px;
+    height: 463px;
+    border: 2px solid  purple;
+    background-color: green;
+}
+
+*{
+    margin: 0;
+    padding: 00;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    border: 2px solid red;
 }
